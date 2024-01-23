@@ -1,0 +1,469 @@
+repo_name: ramzimalhas/SillyTavern
+report_id: baf1a8fd75197dd86940a07ff9fc5bfc
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T07:00:08+00:00'
+requested_by: Cohee1207
+provider: github
+branch: main
+detected_tools_count: 35
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ashen One
+  last_updated_on: 2022-12-22 03:22:29.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-23 18:13:18.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 19.1.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Mindus
+  last_updated_on: 2023-01-25 19:25:10.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cypherpunksamurai
+  last_updated_on: 2023-05-02 17:34:18.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ashen One
+  last_updated_on: 2022-12-22 03:22:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/.github/workflows/build-and-publish-release-dev.yml
+  detection_source: ".github/workflows/build-and-publish-release-dev.yml"
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-16 17:35:31.000000000 Z
+- name: Nix
+  description: 'A package manager for Linux and other Unix systems '
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ashen One
+  last_updated_on: 2022-12-22 03:22:29.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ashen One
+  last_updated_on: 2022-12-22 03:22:29.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-31 19:13:09.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-23 18:13:18.000000000 Z
+- name: pkg
+  description: Package your Node.js project into an executable
+  website_url: https://www.npmjs.com/package/pkg
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6883/repo-banner.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ashen One
+  last_updated_on: 2022-12-22 03:22:29.000000000 Z
+- name: command-exists
+  description: Check whether a command line command exists in the current environment
+  package_url: https://www.npmjs.com/command-exists
+  version: 1.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18070/image.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-09 14:55:42.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cohee
+  last_updated_on: 2023-07-07 09:26:49.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-04-09 16:06:03.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ash
+  last_updated_on: 2023-02-16 22:58:07.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-23 18:13:18.000000000 Z
+- name: ipaddr.js
+  description: A library for manipulating IPv4 and IPv6 addresses in JavaScript
+  package_url: https://www.npmjs.com/ipaddr.js
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18686/default_aa04137358f471f73d601f7d8b94126c37bdd90c.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-12 20:51:52.000000000 Z
+- name: jimp
+  description: An image processing library written entirely in JavaScript
+  package_url: https://www.npmjs.com/jimp
+  version: 0.22.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16902/default_3260e41a86e21f9dd1deddcf0a6e09720ec49021.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-03-15 11:56:53.000000000 Z
+- name: json5
+  description: JSON for humans
+  package_url: https://www.npmjs.com/json5
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-04-08 10:19:02.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-07 11:19:02.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ash
+  last_updated_on: 2023-02-16 22:58:07.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-23 21:09:49.000000000 Z
+- name: node-rest-client
+  description: Node API REST client
+  package_url: https://www.npmjs.com/node-rest-client
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18386/default_0d68c758e5d478008f558c85881d965b38685a90.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-23 21:09:49.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 8.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ash
+  last_updated_on: 2023-02-16 22:58:07.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-03-21 12:30:06.000000000 Z
+- name: sanitize-filename
+  description: Sanitize a string for use as a filename
+  package_url: https://www.npmjs.com/sanitize-filename
+  version: 1.6.3
+  license: WTFPL,ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17504/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-04-22 16:13:11.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 16.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-28 23:28:09.000000000 Z
+- name: yauzl
+  description: Yet another unzip library for node
+  package_url: https://www.npmjs.com/yauzl
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18448/default_31e3dc8ee5066945286d4e7345d470ac3863ee5a.png
+  detection_source_url: https://github.com/ramzimalhas/SillyTavern/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: SillyLossy
+  last_updated_on: 2023-05-28 23:28:09.000000000 Z
