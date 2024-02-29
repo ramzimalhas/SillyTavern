@@ -2,7 +2,7 @@ repo_name: ramzimalhas/SillyTavern
 report_id: baf1a8fd75197dd86940a07ff9fc5bfc
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-23T07:00:08+00:00'
+timestamp: '2024-02-29T19:32:30+00:00'
 requested_by: Cohee1207
 provider: github
 branch: main
@@ -133,7 +133,7 @@ tools:
   last_updated_by: SillyLossy
   last_updated_on: 2023-05-16 17:35:31.000000000 Z
 - name: Nix
-  description: 'A package manager for Linux and other Unix systems '
+  description: A package manager for Linux and other Unix systems
   website_url: http://nixos.org/nix
   license: LGPL-2.1
   open_source: true
