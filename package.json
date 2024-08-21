@@ -15,7 +15,7 @@
         "gpt3-tokenizer": "^1.1.5",
         "ip-matching": "^2.1.2",
         "ipaddr.js": "^2.0.1",
-        "jimp": "^0.22.7",
+        "jimp": "^0.22.12",
         "jquery": "^3.6.4",
         "json5": "^2.2.3",
         "lodash": "^4.17.21",
